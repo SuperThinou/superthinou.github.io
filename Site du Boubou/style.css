@@ -1,0 +1,35 @@
+@font-face {
+  font-family: font-1;
+  src: url(./assets/NanumMyeongjo-ExtraBold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  display: block;
+  margin: 25px auto;
+  box-shadow: 0 2px 12px 5px hsla(0, 0%, 20%, 0.253);
+}
+
+header {
+  background: rgb(176, 217, 255);
+}
+
+body {
+  font-family: "font-1", sans-serif;
+  background: rgba(176, 217, 255, 0.39);
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  color: #ffb300;
+  text-shadow: -3px 4px 5px rgb(104 74 5 / 50%);
+  text-align: center;
+  font-family: "font-1", sans-serif;
+  margin-top: 1%;
+}
